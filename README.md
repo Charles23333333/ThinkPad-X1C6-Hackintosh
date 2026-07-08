@@ -31,4 +31,4 @@ In Tahoe, Apple HDA is deprecated, but you can use OCLP to patch audio driver
 This build is for Intel Wireless Card, if you use Broadcom, replace the kexts
 
 ## SSD
-The original Samsung PM981 doesn't work with MacOS, please replace it.Tested with SK Hynix Gold P31
+The original Samsung PM981 doesn't work with MacOS, please replace it. Tested with SK Hynix Gold P31
