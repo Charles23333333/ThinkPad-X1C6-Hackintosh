@@ -8,7 +8,7 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/admin/Documents/voltageshift/setup.sh</string>
+        <string>/path/to/setup.sh</string>
     </array>
 
     <key>RunAtLoad</key>
