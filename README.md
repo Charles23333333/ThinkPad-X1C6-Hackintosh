@@ -23,3 +23,12 @@ chown root:wheel /Library/LaunchDaemons/setup.startup_tcc.plist
 **YogaSMC Kext** and **EC ssdt for X1C6** (though the name is the same, the functions differ from the other universal one) is included
 
 Just install YogaSMCNC.app to control the fan manually
+
+## Audio
+In Tahoe, Apple HDA is deprecated, but you can use OCLP to patch audio driver
+
+## WLAN
+This build is for Intel Wireless Card, if you use Broadcom, replace the kexts
+
+## SSD
+The original Samsung PM981 doesn't work with MacOS, please replace it.Tested with SK Hynix Gold P31
