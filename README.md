@@ -4,6 +4,7 @@ Running Macos Tahoe on X1C6!
 1.Disable SIP
 
 2.Modify voltageshift/setup.sh & voltageshift/setup_tcc_60s.sh & LaunchDaemons/setup.startup.plist & LaunchDaemons/setup.startup_tcc.plist to fit your directory
+> If you've undervoltaged in the unlocked bios, `/path/to/voltageshift offset -80 0 -50 0 0 &&` is not necessary in setup.sh
 
 3.
 ```
@@ -22,4 +23,3 @@ chown root:wheel /Library/LaunchDaemons/setup.startup_tcc.plist
 **YogaSMC Kext** and **EC ssdt for X1C6** (though the name is the same, the functions differ from the other universal one) is included
 
 Just install YogaSMCNC.app to control the fan manually
-
