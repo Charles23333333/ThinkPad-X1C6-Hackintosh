@@ -16,7 +16,7 @@ cp LaunchDaemons/setup.startup_tcc.plist /Library/LaunchDaemons &&
 chown root:wheel /Library/LaunchDaemons/setup.startup.plist &&
 chown root:wheel /Library/LaunchDaemons/setup.startup_tcc.plist
 ```
-5.To avoid voltage & pl & tcc reset at wakeup, install wakeup via homebrew and add the directory of setup.sh to `～/.wakeup`
+5.To avoid voltage & pl & tcc reset at wakeup, install wakeup via homebrew and add the **_directory of setup.sh_** to `～/.wakeup`
 
 ## Fan Control
 **YogaSMC Kext** and **EC ssdt for X1C6** (though the name is the same, the functions differ from the other universal one) is included
